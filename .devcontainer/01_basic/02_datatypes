@@ -1,0 +1,4 @@
+// earlier version of javascript didn't have classes, modules, arrow function and arrow function//here we use "use strict" to treat older and newer version javascript equally.
+"use strict"//treat all js code a newer version.
+//alert(3+3); using node js not browser;
+console.log(3+3);// code readabilty
