@@ -7,3 +7,4 @@ const scores = "33";
 console.log(typeof(scores));
 const valueInNumber = Number(score);
 console.log(typeof valueInNumber);
+//
