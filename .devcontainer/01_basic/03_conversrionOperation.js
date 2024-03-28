@@ -8,3 +8,33 @@ console.log(typeof(scores));
 const valueInNumber = Number(score);
 console.log(typeof valueInNumber);
 //
+const ans = true;
+//
+const inNumber= Number(ans);
+console.log(inNumber);
+const ans2= false;
+const inNumber2= Number(ans2);
+console.log(inNumber2);
+//
+const anss1= 1;
+const val1= Number(anss1);
+console.log(val1);
+
+//converting into Number
+//'33' => 33
+// "33abc" => NaN
+//true => 1;
+//false => 0;
+//undefine
+//null
+let isLoggedIn = 1;
+let booleanIsLoggedIn=Boolean(isLoggedIn);
+ console.log(booleanIsLoggedIn);
+
+ //1 => true; 0=> false;
+ //"" => false;
+ //"fann" => true;
+ let someNumber = 33;
+ let  stringNumber =String(someNumber);
+ console.log(stringNumber);
+ console.log(typeof stringNumber);
