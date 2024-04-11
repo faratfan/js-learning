@@ -19,7 +19,7 @@
 //Array , Objects, Functions
 //Typescript is another similar language to java script 
 
-const heros =['SuperMan','GreenArrow','WonderWoman','AuqaMan'];
+//const heros =['SuperMan','GreenArrow','WonderWoman','AuqaMan'];
 // let myObj = {
 //     name :fann,
 //     work :Software Developer,
