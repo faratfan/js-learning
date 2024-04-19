@@ -1,1 +1,1 @@
-/* objects are declare 2 ways 1: litral, and constructor and another way //singleton--> just sing object no othe instance like it(while literal  )
+/* objects are declare 2 ways 1: litral, and constructor and another way //singleton--> just sing object no othe instance like it(while literal  )*/
