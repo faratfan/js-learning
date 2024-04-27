@@ -39,30 +39,67 @@ const object4 = { 5:"e",6:"f"};//Source in .assign method;
 //console.log(obj3);//{'1':a,'2':'b','3':'c','4':'d'}##.assign copy enmumerable from taget object
 //const obj3 = Object.assign({},object1,//object2,object4);//{} empty parenthesis is a way to ensure that a guranted space is created for Object to ,put value in
 //however spread operator in way more convient
-const obj3 ={...object1, ...object2}
+//const obj3 ={...object1, ...object2}
 //console.log(obj3);//
 //values get from database, comes in form of array object
-const users = [
-   {
-      id:1,
-      email:"Puffybhatti6@yahoo.com", 
-   },
-   {
-      id:2,
-      email:"AprilChurail7@gamil.com"
-   }
+//const users = [
+   //{
+      //id:1,
+     // email:"Puffybhatti6@yahoo.com", 
+   //},
+   //{
+      //id:2,
+    //  email:"AprilChurail7@gamil.com"
+  // }
 
-]
-console.log(users[1].email);
-console.log(airbnbUser);
+//]
+//console.log(users[1].email);
+//console.log(airbnbUser);
 
 //usefull method
 //1-->Object.keys--> Provide all keys of the object in an array
-console.log(Object.keys(airbnbUser));
+//console.log(Object.keys(airbnbUser));
 //using Object.value()
-console.log(Object.values(airbnbUser));
+//console.log(Object.values(airbnbUser));
 //Object.entries() [key:value] in array
-console.log(Object.entries(airbnbUser));
+//console.log(Object.entries(airbnbUser));
 //Looping and getting value // and saving it from crash in that case we use .hasOwnProperty to save it from crash
-console.log(airbnbUser.hasOwnProperty('isLoggedIn'));//OutPut-->true
-console.log(airbnbUser.hasOwnProperty('isLogged'));//-->false
+//console.log(airbnbUser.hasOwnProperty('isLoggedIn'));//OutPut-->true
+//console.log(airbnbUser.hasOwnProperty('isLogged'));//-->false
+
+//#####Object destructure
+const course = {
+   coursename: "JavaScript",
+   price: "999",
+   courseInstructor : "Fann"
+}
+//course.coursename;
+
+//Object destructor
+//const {coursename} = course;
+//console.log(coursename);
+
+/*const navbar = ({company}) => {
+    return company
+}
+
+navbar (company = "Fann")
+
+console.log(navbar());*/
+
+//###API 
+//JSON
+//Structure ("key":"value" are both are  saved as string )
+// {
+//  "name": "Fann",
+//  "coursename":"JavaScript",
+//  "price":"free" 
+// }
+
+//##API (Object/Array form)
+[
+ {},
+ {},
+ {}
+
+]
