@@ -57,4 +57,55 @@ if(true){
 console.log(a1);
     
  //Scopes are very different in Console(e.g --> Google>Inspect>console) and in node runtime enviorement.
- 
+ console.log("Hey There , how you doing?");
+ //Nested Scope
+ function one(){
+    const username = "Farat" ;
+    function two() {
+        const website = "youtube";
+        console.log(username);
+    }
+    //console.log(website);//Error ---> as website is inside function two
+    two()//nested function can acces parent function variable(child can acces variabl of parent variable) 
+ }
+
+one();//->clouser has thw ability to acces all objects of the functions
+//If example use case scenario
+if(true){
+    const username = "Fann"
+    if(username === "Fann" ){
+        const website = "youtube"
+        //console.log(username +" "+ website);
+    }
+    //console.log(website)
+} 
+//console.log(username);
+//closure function use case
+ //Basic Function
+function addone(num){
+     return num +1;
+
+} 
+
+//Function/Expression 
+const addTwo = function (num){
+     return num +2;
+}
+console.log(addTwo(3));
+//Hoisting concept in js-function
+// checking hoisting concept with basic function
+
+console.log(exponent(2));
+
+function exponent(num){
+    return num **num;
+}
+//checking  hoisting with expression 
+
+console.log(multiply(2,2))//Hoisting--> Refrence Error-> connot access 'mulyiply' before intialization/ hoisting does not work in function expression
+const multiply = function(num1, num2){
+    return num1 * num2;
+}
+//console.log(multiply(2,4));--> 
+
+
