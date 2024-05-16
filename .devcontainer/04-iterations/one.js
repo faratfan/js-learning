@@ -34,5 +34,29 @@ const names = ["puffy","April","Jaggi","Luna","Ozzy","Jalebi"]
     }
     
  }*/
+  //Workign with aray and for loop
+
+ const array2 = ['april', 'puffy', 'Luna'];
+  for (let i = 0; i < array2.length; i++) {
+       const element = array2[i];
+    console.log(element)
+    
+  }
+  //how much of the loop  to print
+  //break and continue
+  for (let i = 1 ; i <= 20; i++) {
+    //const element = array[i];
+
+    if(i == 5){
+        console.log('5  is  Detected')
+        console.log('5 is the lukiest number');
+        //break// after break the code will not execte any  further;
+        //
+        //continue--> to kep going -->
+    }
+     console.log(`value of i is: ${i}`)
+    
+  }
+    
   
         
