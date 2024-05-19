@@ -18,12 +18,12 @@ for (const greet of greetings) {
     //console.log(`Each Character Is : ${greet}`);
 }
 //Maps --> store unique value and order is maintaien
-const map = new Map()
-map.set('IN', "India");
-map.set('USA',"United States of America");
-map.set('ENG',"England");
-map.set('LN',"London");
-map.set('IN',"INDIA");//The line wont print as map only store unique value
+//const map = new Map()
+//map.set('IN', "India");
+//map.set('USA',"United States of America");
+//map.set('ENG',"England");
+//map.set('LN',"London");
+//map.set('IN',"INDIA");//The line wont print as map only store unique value
 //console.log(map)
 //using loop on map(for of)
 for (const index of map) {
@@ -68,11 +68,29 @@ for (const [key,value] of map3) {
     //console.log(` the key and value is ${key,':-', value}`);
 }
 //Using For Of Loop on Object(will not work)
-const myObject ={
+/*const myObject ={
     game1 : 'Call of Duty ',
     game2 : 'NFS',
     game3 : 'Assasin Creed',
 }
 for (const [key,value] of myObject) {
     console.log(key,':-',value);//myObject is not iteratable
+}*/
+//
+const map = new Map();
+map.set('Item1', "LapTop");
+map.set('Item2', "Internet");
+map.set('Item3', "code");
+
+console.log(map);
+//using for of
+//Answer will be generated in Array
+for (const key of map) {
+    
+   console.log( key);
+
 }
+//using key - value concept
+//for (const [key, value] of map) {
+   // console.log(`key:- ${key} , value:- ${value}`);
+//}
