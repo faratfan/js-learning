@@ -9,12 +9,7 @@ const array = [1,2,3,4,5,6];
     console.log(element);
     
 }*/
-for (let i = 0; i <= array.length; i++) {
-    const element = array[i];
-    if(i == 5){
-        console.log('5 is the best number');
-    }
-    console.log(element);
+
 }
 console.log(array);
 //console.log(element)
